@@ -1,0 +1,27 @@
+{
+  "name": "node-livelogger",
+  "version": "0.0.0",
+  "description": "Live Logging",
+  "author": "Christophe Hamerling <christophe.hamerling@gmail.com>",
+  "homepage": "http://github.com/chamerling/node-livelogger",
+  "keywords": [
+    "node", "log", "websocket", "socket.io"
+  ],
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://mths.be/mit"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/chamerling/node-livelogger.git"
+  },
+  
+  "dependencies": {
+    "request": "latest",
+    "express": "latest",
+    "socket.io": "0.9.10",
+    "socket.io-client": "0.9.10",
+    "mongoose":"latest",
+    "mongoose-lifecycle":"latest"
+  }
+}
